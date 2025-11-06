@@ -47,6 +47,10 @@ ehthumbs.db
 *.aab
 *.unitypackage
 
+# Visual Studio folder
+
+.vs/
+
 # Ensure the important project folders are tracked
 
 !Assets/
