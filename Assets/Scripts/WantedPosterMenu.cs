@@ -3,7 +3,6 @@ using UnityEngine.UI;
 
 public class WantedPosterMenu : MonoBehaviour
 {
-    [Header("UI References")]
     public CanvasGroup menuGroup;   
     public Image displayImage;      
     public Sprite[] images;        
