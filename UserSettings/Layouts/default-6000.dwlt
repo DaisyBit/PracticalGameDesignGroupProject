@@ -218,8 +218,8 @@ MonoBehaviour:
     y: 0
     width: 1822
     height: 972
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 226}
+  m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -246,8 +246,8 @@ MonoBehaviour:
     y: 0
     width: 435
     height: 972
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -339,7 +339,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 79
+    y: 24
     width: 302
     height: 946
   m_SerializedDataModeController:
@@ -356,7 +356,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 18830000
+      m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: c8d8ffffa4faffffa0bb0000b8bb000020bc0000
       m_RenameOverlay:
@@ -404,8 +404,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 303
-    y: 79
+    x: 304
+    y: 24
     width: 1820
     height: 946
   m_SerializedDataModeController:
@@ -1385,8 +1385,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 2125
-    y: 79
+    x: 2126
+    y: 24
     width: 434
     height: 946
   m_SerializedDataModeController:
@@ -1435,7 +1435,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 1051
+    y: 996
     width: 2560
     height: 295
   m_SerializedDataModeController:
@@ -1479,7 +1479,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 60}
     m_SelectedIDs: 3ac00000
     m_LastClickedID: 49210
-    m_ExpandedIDs: 0000000078bf00002ec000003cc000003ec00000e6c4000000ca9a3b
+    m_ExpandedIDs: 000000009cbf00009ebf0000a0bf0000a2bf0000a4bf0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1508,7 +1508,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: bab40000
     m_LastClickedID: 46266
-    m_ExpandedIDs: 0000000078bf0000
+    m_ExpandedIDs: 000000009cbf00009ebf0000a0bf0000a2bf0000a4bf0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

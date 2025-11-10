@@ -1,0 +1,2639 @@
+fileFormatVersion: 2
+guid: fd531563e0416f44694e2e5d18b1511c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7110496163793236260
+    second: Male3flip_0
+  - first:
+      213: -2700979356497090786
+    second: Male3flip_1
+  - first:
+      213: 1180744270277955783
+    second: Male3flip_2
+  - first:
+      213: 3502408229839330337
+    second: Male3flip_3
+  - first:
+      213: -9089996904135463947
+    second: Male3flip_4
+  - first:
+      213: 5859208531915016927
+    second: Male3flip_5
+  - first:
+      213: 4315182345534175117
+    second: Male3flip_6
+  - first:
+      213: 3329649778200102379
+    second: Male3flip_7
+  - first:
+      213: -5338987117437865417
+    second: Male3flip_8
+  - first:
+      213: 820888455908994066
+    second: Male3flip_9
+  - first:
+      213: -4365661142669098923
+    second: Male3flip_10
+  - first:
+      213: -860616324832844360
+    second: Male3flip_11
+  - first:
+      213: -1019870143689056080
+    second: Male3flip_12
+  - first:
+      213: -2596624076611236163
+    second: Male3flip_13
+  - first:
+      213: -4860871244678921524
+    second: Male3flip_14
+  - first:
+      213: -4011290720867898125
+    second: Male3flip_15
+  - first:
+      213: 1486975665185990319
+    second: Male3flip_16
+  - first:
+      213: 7223669948875779655
+    second: Male3flip_17
+  - first:
+      213: 1046404082369567475
+    second: Male3flip_18
+  - first:
+      213: -113297228139926158
+    second: Male3flip_19
+  - first:
+      213: -5458877244187977321
+    second: Male3flip_20
+  - first:
+      213: -8543839778168409460
+    second: Male3flip_21
+  - first:
+      213: 7657985493259800280
+    second: Male3flip_22
+  - first:
+      213: -6286196304926422406
+    second: Male3flip_23
+  - first:
+      213: 7900649327817950551
+    second: Male3flip_24
+  - first:
+      213: 1193998255386599528
+    second: Male3flip_25
+  - first:
+      213: -4556268252983767612
+    second: Male3flip_26
+  - first:
+      213: 3711060611445905377
+    second: Male3flip_27
+  - first:
+      213: 658782795061094071
+    second: Male3flip_28
+  - first:
+      213: 1198986425410481607
+    second: Male3flip_29
+  - first:
+      213: 5620892823004199186
+    second: Male3flip_30
+  - first:
+      213: 2603341817673784345
+    second: Male3flip_31
+  - first:
+      213: -2179918643300334397
+    second: Male3flip_32
+  - first:
+      213: 5337873570671187771
+    second: Male3flip_33
+  - first:
+      213: -7507203489740552611
+    second: Male3flip_34
+  - first:
+      213: 7108328101243637040
+    second: Male3flip_35
+  - first:
+      213: -8755490521713148629
+    second: Male3flip_36
+  - first:
+      213: 6252520582291038347
+    second: Male3flip_37
+  - first:
+      213: -6687442383559378267
+    second: Male3flip_38
+  - first:
+      213: 1772651141374559244
+    second: Male3flip_39
+  - first:
+      213: 302118834872402951
+    second: Male3flip_40
+  - first:
+      213: -4939503770111384048
+    second: Male3flip_41
+  - first:
+      213: 852246719813719487
+    second: Male3flip_42
+  - first:
+      213: -6868581376861670882
+    second: Male3flip_43
+  - first:
+      213: 3692746880927658484
+    second: Male3flip_44
+  - first:
+      213: -4431674793649769814
+    second: Male3flip_45
+  - first:
+      213: -6020041352441276872
+    second: Male3flip_46
+  - first:
+      213: 2839877189145360680
+    second: Male3flip_47
+  - first:
+      213: 5823993933522884039
+    second: Male3flip_48
+  - first:
+      213: -5571450992247094418
+    second: Male3flip_49
+  - first:
+      213: -7234857114110488963
+    second: Male3flip_50
+  - first:
+      213: 6788049728598735994
+    second: Male3flip_51
+  - first:
+      213: -3491411877760151431
+    second: Male3flip_52
+  - first:
+      213: -1538805168345166605
+    second: Male3flip_53
+  - first:
+      213: 9017821714445619306
+    second: Male3flip_54
+  - first:
+      213: -5975022384213595092
+    second: Male3flip_55
+  - first:
+      213: 2344504127952146680
+    second: Male3flip_56
+  - first:
+      213: -4989774959985207902
+    second: Male3flip_57
+  - first:
+      213: -2978355030450816289
+    second: Male3flip_58
+  - first:
+      213: 8172884999029657111
+    second: Male3flip_59
+  - first:
+      213: 5056924926140625442
+    second: Male3flip_60
+  - first:
+      213: -6534406209851122375
+    second: Male3flip_61
+  - first:
+      213: 6817144310216945085
+    second: Male3flip_62
+  - first:
+      213: 7242233516194700916
+    second: Male3flip_63
+  - first:
+      213: 2303053886517032106
+    second: Male3flip_64
+  - first:
+      213: 4879882617339210075
+    second: Male3flip_65
+  - first:
+      213: 886999714067899740
+    second: Male3flip_66
+  - first:
+      213: -7261721948180326917
+    second: Male3flip_67
+  - first:
+      213: 6817943538044595464
+    second: Male3flip_68
+  - first:
+      213: 798888077809959589
+    second: Male3flip_69
+  - first:
+      213: -3119715076367699672
+    second: Male3flip_70
+  - first:
+      213: -3852377150710768766
+    second: Male3flip_71
+  - first:
+      213: 4136104182790230583
+    second: Male3flip_72
+  - first:
+      213: -1570093983640798630
+    second: Male3flip_73
+  - first:
+      213: 6671283819173907563
+    second: Male3flip_74
+  - first:
+      213: 6145848038865585198
+    second: Male3flip_75
+  - first:
+      213: 913011846506450384
+    second: Male3flip_76
+  - first:
+      213: -5664668208353647296
+    second: Male3flip_77
+  - first:
+      213: -3745698037983949988
+    second: Male3flip_78
+  - first:
+      213: -6385684574016406093
+    second: Male3flip_79
+  - first:
+      213: -5804793585924240783
+    second: Male3flip_80
+  - first:
+      213: 1841124446839172008
+    second: Male3flip_81
+  - first:
+      213: -4835407958770761074
+    second: Male3flip_82
+  - first:
+      213: 2670067829533478727
+    second: Male3flip_83
+  - first:
+      213: -1376173941679057755
+    second: Male3flip_84
+  - first:
+      213: 6743354769367093758
+    second: Male3flip_85
+  - first:
+      213: 3930868169379817319
+    second: Male3flip_86
+  - first:
+      213: 2920190241603651220
+    second: Male3flip_87
+  - first:
+      213: -2701659037739719137
+    second: Male3flip_88
+  - first:
+      213: 756291188928847877
+    second: Male3flip_89
+  - first:
+      213: 7808108817291860842
+    second: Male3flip_90
+  - first:
+      213: -4228388037012331798
+    second: Male3flip_91
+  - first:
+      213: 7075680355053829941
+    second: Male3flip_92
+  - first:
+      213: 5596606517602627249
+    second: Male3flip_93
+  - first:
+      213: -3511515075518868852
+    second: Male3flip_94
+  - first:
+      213: -5038386562108621091
+    second: Male3flip_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Male3flip_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 534
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde835c7961725d90800000000000000
+      internalID: -7110496163793236260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 534
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e17e35ee591348ad0800000000000000
+      internalID: -2700979356497090786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 534
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c0de7078a8d26010800000000000000
+      internalID: 1180744270277955783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_3
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 534
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c5afd7abd0b9030800000000000000
+      internalID: 3502408229839330337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_4
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 534
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fbea9ff9f7d9d180800000000000000
+      internalID: -9089996904135463947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_5
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 534
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda8bb9cd17105150800000000000000
+      internalID: 5859208531915016927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_6
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 534
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d87f99efa7b92eb30800000000000000
+      internalID: 4315182345534175117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_7
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 534
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be5431005da453e20800000000000000
+      internalID: 3329649778200102379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 486
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 732babcf08b18e5b0800000000000000
+      internalID: -5338987117437865417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_9
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 486
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21cacae83b1646b00800000000000000
+      internalID: 820888455908994066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_10
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 486
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5508b7d225e0a63c0800000000000000
+      internalID: -4365661142669098923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_11
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 486
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5af66230a7e04f0800000000000000
+      internalID: -860616324832844360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_12
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 486
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b023600281b8d1f0800000000000000
+      internalID: -1019870143689056080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_13
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 486
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe4c5ae820f6fbd0800000000000000
+      internalID: -2596624076611236163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_14
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 486
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc280026b57ba8cb0800000000000000
+      internalID: -4860871244678921524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_15
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 486
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc29d397580558c0800000000000000
+      internalID: -4011290720867898125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_16
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 438
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa6af093d7cc2a410800000000000000
+      internalID: 1486975665185990319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 438
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ea76dbb81af3460800000000000000
+      internalID: 7223669948875779655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_18
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 438
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fa182508f2958e00800000000000000
+      internalID: 1046404082369567475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_19
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 438
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27deea275cc7d6ef0800000000000000
+      internalID: -113297228139926158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_20
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 438
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79956bb911c2e34b0800000000000000
+      internalID: -5458877244187977321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_21
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 438
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c827b6c2dfe2e6980800000000000000
+      internalID: -8543839778168409460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_22
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 438
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de48dc7b31a64a60800000000000000
+      internalID: 7657985493259800280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_23
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 438
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7acc7034c1f2c8a0800000000000000
+      internalID: -6286196304926422406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 390
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755848744beb4ad60800000000000000
+      internalID: 7900649327817950551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_25
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 390
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86021c2561fe19010800000000000000
+      internalID: 1193998255386599528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_26
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 390
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cd438ff922e4c0c0800000000000000
+      internalID: -4556268252983767612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_27
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 390
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e75d2dc6f5508330800000000000000
+      internalID: 3711060611445905377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_28
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 390
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b661c33677742900800000000000000
+      internalID: 658782795061094071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_29
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 390
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd6b192dc7a3a010800000000000000
+      internalID: 1198986425410481607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_30
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 390
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21935b3ed3c610e40800000000000000
+      internalID: 5620892823004199186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_31
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 390
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c9d5f079de02420800000000000000
+      internalID: 2603341817673784345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_32
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 342
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c405da2b8f5fb1e0800000000000000
+      internalID: -2179918643300334397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_33
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 342
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b375dc33bbfe31a40800000000000000
+      internalID: 5337873570671187771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_34
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 342
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d560171733e01d790800000000000000
+      internalID: -7507203489740552611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_35
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 342
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03dcd8d1fbad5a260800000000000000
+      internalID: 7108328101243637040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_36
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 342
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2dfcf252cf3e7680800000000000000
+      internalID: -8755490521713148629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_37
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 342
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80a642a75a65c650800000000000000
+      internalID: 6252520582291038347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_38
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 342
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aa3d00759e6133a0800000000000000
+      internalID: -6687442383559378267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_39
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 342
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04425832d8b99810800000000000000
+      internalID: 1772651141374559244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_40
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 294
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7044688ca77513400800000000000000
+      internalID: 302118834872402951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_41
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 294
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 016eecfdd7b537bb0800000000000000
+      internalID: -4939503770111384048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_42
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 294
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb51d7350e9c3db00800000000000000
+      internalID: 852246719813719487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_43
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 294
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e12fb4901a5eda0a0800000000000000
+      internalID: -6868581376861670882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_44
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 294
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1ff1329b54f3330800000000000000
+      internalID: 3692746880927658484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_45
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 294
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa2f37451478f72c0800000000000000
+      internalID: -4431674793649769814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_46
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 294
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83653961944847ca0800000000000000
+      internalID: -6020041352441276872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_47
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 294
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8297eb8d145496720800000000000000
+      internalID: 2839877189145360680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_48
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 246
+        width: 15
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c559ad20abf2d050800000000000000
+      internalID: 5823993933522884039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_49
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 246
+        width: 16
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e634d9367da3ea2b0800000000000000
+      internalID: -5571450992247094418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_50
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 246
+        width: 15
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e8cb069cf989b90800000000000000
+      internalID: -7234857114110488963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_51
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 246
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c70d6734ff33e50800000000000000
+      internalID: 6788049728598735994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_52
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 246
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 970d68d35630c8fc0800000000000000
+      internalID: -3491411877760151431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_53
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 246
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc40423ad015aae0800000000000000
+      internalID: -1538805168345166605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_54
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 246
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a60d551221db52d70800000000000000
+      internalID: 9017821714445619306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_55
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 246
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ce0ff6cc4741da0800000000000000
+      internalID: -5975022384213595092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_56
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 198
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f05609251a598020800000000000000
+      internalID: 2344504127952146680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_57
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 198
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a551f06c12c0cab0800000000000000
+      internalID: -4989774959985207902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_58
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 198
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda3bfa31e1caa6d0800000000000000
+      internalID: -2978355030450816289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_59
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 198
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71e0845da9beb6170800000000000000
+      internalID: 8172884999029657111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_60
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 198
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2223e667d6ecd2640800000000000000
+      internalID: 5056924926140625442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_61
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 198
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d97b34c202155a0800000000000000
+      internalID: -6534406209851122375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_62
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 198
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbd6e01a1ac5b9e50800000000000000
+      internalID: 6817144310216945085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_63
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 198
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e96311305918460800000000000000
+      internalID: 7242233516194700916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_64
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 150
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa43e64ce4716ff10800000000000000
+      internalID: 2303053886517032106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_65
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 150
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b596b10c263d8b340800000000000000
+      internalID: 4879882617339210075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_66
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 150
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c55e3e85a814f4c00800000000000000
+      internalID: 886999714067899740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_67
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 150
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf5dd05cc5e293b90800000000000000
+      internalID: -7261721948180326917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_68
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 150
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d61db56833e9e50800000000000000
+      internalID: 6817943538044595464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_69
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 150
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a2482d5978361b00800000000000000
+      internalID: 798888077809959589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_70
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 150
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8213ca0caab84b4d0800000000000000
+      internalID: -3119715076367699672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_71
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 150
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28b9d07646b998ac0800000000000000
+      internalID: -3852377150710768766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_72
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 102
+        width: 15
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 732183917d4666930800000000000000
+      internalID: 4136104182790230583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_73
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 102
+        width: 16
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5abc1137d7e53ae0800000000000000
+      internalID: -1570093983640798630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_74
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 102
+        width: 15
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c0cad9949259c50800000000000000
+      internalID: 6671283819173907563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_75
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 102
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e244d10ba307a4550800000000000000
+      internalID: 6145848038865585198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_76
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 102
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd8db2ef6babac00800000000000000
+      internalID: 913011846506450384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_77
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 102
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 045e1a6f64e0361b0800000000000000
+      internalID: -5664668208353647296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_78
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 102
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5bc612ea7b940cc0800000000000000
+      internalID: -3745698037983949988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_79
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 102
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd7f0676bd7167a0800000000000000
+      internalID: -6385684574016406093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_80
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 54
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a058c1dfa317fa0800000000000000
+      internalID: -5804793585924240783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_81
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 54
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8abe2210eecfc8910800000000000000
+      internalID: 1841124446839172008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_82
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 54
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e824f51a41e25ecb0800000000000000
+      internalID: -4835407958770761074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_83
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 54
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f8a895b8cfd0520800000000000000
+      internalID: 2670067829533478727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_84
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 54
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a412116719d6ece0800000000000000
+      internalID: -1376173941679057755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_85
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 54
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1df865f65359d50800000000000000
+      internalID: 6743354769367093758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_86
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 54
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76726cef5cf3d8630800000000000000
+      internalID: 3930868169379817319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_87
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 54
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 496095b8d89968820800000000000000
+      internalID: 2920190241603651220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_88
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 6
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f16ec4f4b67c18ad0800000000000000
+      internalID: -2701659037739719137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_89
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 6
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500acde44d2ee7a00800000000000000
+      internalID: 756291188928847877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_90
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 6
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6bd646a999fb5c60800000000000000
+      internalID: 7808108817291860842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_91
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 6
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae26e59bb7fb155c0800000000000000
+      internalID: -4228388037012331798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_92
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 6
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f713b5bcdd13260800000000000000
+      internalID: 7075680355053829941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_93
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 6
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be2755c9f32bad40800000000000000
+      internalID: 5596606517602627249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_94
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 6
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82d444c4a7944fc0800000000000000
+      internalID: -3511515075518868852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male3flip_95
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 6
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddef964cd1e041ab0800000000000000
+      internalID: -5038386562108621091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Male3flip_0: -7110496163793236260
+      Male3flip_1: -2700979356497090786
+      Male3flip_10: -4365661142669098923
+      Male3flip_11: -860616324832844360
+      Male3flip_12: -1019870143689056080
+      Male3flip_13: -2596624076611236163
+      Male3flip_14: -4860871244678921524
+      Male3flip_15: -4011290720867898125
+      Male3flip_16: 1486975665185990319
+      Male3flip_17: 7223669948875779655
+      Male3flip_18: 1046404082369567475
+      Male3flip_19: -113297228139926158
+      Male3flip_2: 1180744270277955783
+      Male3flip_20: -5458877244187977321
+      Male3flip_21: -8543839778168409460
+      Male3flip_22: 7657985493259800280
+      Male3flip_23: -6286196304926422406
+      Male3flip_24: 7900649327817950551
+      Male3flip_25: 1193998255386599528
+      Male3flip_26: -4556268252983767612
+      Male3flip_27: 3711060611445905377
+      Male3flip_28: 658782795061094071
+      Male3flip_29: 1198986425410481607
+      Male3flip_3: 3502408229839330337
+      Male3flip_30: 5620892823004199186
+      Male3flip_31: 2603341817673784345
+      Male3flip_32: -2179918643300334397
+      Male3flip_33: 5337873570671187771
+      Male3flip_34: -7507203489740552611
+      Male3flip_35: 7108328101243637040
+      Male3flip_36: -8755490521713148629
+      Male3flip_37: 6252520582291038347
+      Male3flip_38: -6687442383559378267
+      Male3flip_39: 1772651141374559244
+      Male3flip_4: -9089996904135463947
+      Male3flip_40: 302118834872402951
+      Male3flip_41: -4939503770111384048
+      Male3flip_42: 852246719813719487
+      Male3flip_43: -6868581376861670882
+      Male3flip_44: 3692746880927658484
+      Male3flip_45: -4431674793649769814
+      Male3flip_46: -6020041352441276872
+      Male3flip_47: 2839877189145360680
+      Male3flip_48: 5823993933522884039
+      Male3flip_49: -5571450992247094418
+      Male3flip_5: 5859208531915016927
+      Male3flip_50: -7234857114110488963
+      Male3flip_51: 6788049728598735994
+      Male3flip_52: -3491411877760151431
+      Male3flip_53: -1538805168345166605
+      Male3flip_54: 9017821714445619306
+      Male3flip_55: -5975022384213595092
+      Male3flip_56: 2344504127952146680
+      Male3flip_57: -4989774959985207902
+      Male3flip_58: -2978355030450816289
+      Male3flip_59: 8172884999029657111
+      Male3flip_6: 4315182345534175117
+      Male3flip_60: 5056924926140625442
+      Male3flip_61: -6534406209851122375
+      Male3flip_62: 6817144310216945085
+      Male3flip_63: 7242233516194700916
+      Male3flip_64: 2303053886517032106
+      Male3flip_65: 4879882617339210075
+      Male3flip_66: 886999714067899740
+      Male3flip_67: -7261721948180326917
+      Male3flip_68: 6817943538044595464
+      Male3flip_69: 798888077809959589
+      Male3flip_7: 3329649778200102379
+      Male3flip_70: -3119715076367699672
+      Male3flip_71: -3852377150710768766
+      Male3flip_72: 4136104182790230583
+      Male3flip_73: -1570093983640798630
+      Male3flip_74: 6671283819173907563
+      Male3flip_75: 6145848038865585198
+      Male3flip_76: 913011846506450384
+      Male3flip_77: -5664668208353647296
+      Male3flip_78: -3745698037983949988
+      Male3flip_79: -6385684574016406093
+      Male3flip_8: -5338987117437865417
+      Male3flip_80: -5804793585924240783
+      Male3flip_81: 1841124446839172008
+      Male3flip_82: -4835407958770761074
+      Male3flip_83: 2670067829533478727
+      Male3flip_84: -1376173941679057755
+      Male3flip_85: 6743354769367093758
+      Male3flip_86: 3930868169379817319
+      Male3flip_87: 2920190241603651220
+      Male3flip_88: -2701659037739719137
+      Male3flip_89: 756291188928847877
+      Male3flip_9: 820888455908994066
+      Male3flip_90: 7808108817291860842
+      Male3flip_91: -4228388037012331798
+      Male3flip_92: 7075680355053829941
+      Male3flip_93: 5596606517602627249
+      Male3flip_94: -3511515075518868852
+      Male3flip_95: -5038386562108621091
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
