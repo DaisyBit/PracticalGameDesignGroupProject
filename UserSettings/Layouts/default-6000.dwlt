@@ -358,7 +358,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 1aecffffe4ecffffe8faffff
+      m_ExpandedIDs: 8ec1ffffaef1ffff0cfbffff84bb000008bc000044bc0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -990,9 +990,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 435.7989, y: 673.115, z: -4.3448544}
+    m_Target: {x: 2.4597626, y: -0.1449475, z: -0.01886139}
     speed: 2
-    m_Value: {x: 435.7989, y: 673.115, z: -4.3448544}
+    m_Value: {x: 2.4597626, y: -0.1449475, z: -0.01886139}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1042,9 +1042,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 596.4304
+    m_Target: 3.9624553
     speed: 2
-    m_Value: 596.4304
+    m_Value: 3.9624553
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1460,7 +1460,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Assets/Prefabs
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1470,16 +1470,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\Github\PracticalGameDesignGroupProject
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 120}
-    m_SelectedIDs: 1ec10000
-    m_LastClickedID: 49438
-    m_ExpandedIDs: 00000000a8c00000aac00000
+    scrollPos: {x: 0, y: 27}
+    m_SelectedIDs: 06c50000
+    m_LastClickedID: 50438
+    m_ExpandedIDs: 00000000bec00000c0c00000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1508,7 +1508,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: bab40000
     m_LastClickedID: 46266
-    m_ExpandedIDs: 00000000a8c00000aac00000
+    m_ExpandedIDs: 00000000bec00000c0c00000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1554,7 +1554,7 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
-      m_ClientGUIView: {fileID: 11}
+      m_ClientGUIView: {fileID: 9}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
