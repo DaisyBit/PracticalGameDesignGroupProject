@@ -36,4 +36,8 @@ public class PauseMenu : MonoBehaviour
         Application.Quit();
     }
     
+    public void Reload()
+    {
+        SceneManager.LoadScene(1);
+    }
 }
