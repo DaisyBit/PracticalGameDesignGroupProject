@@ -13,19 +13,20 @@ public class GameManager : MonoBehaviour
             gameOverMenu.HideMenu();
     }
 
-    public void EndGame(int score)
-    {
-        if (gameEnded) return; 
-        gameEnded = true;
+public void EndGame(int score)
+{
+    if (gameEnded) return; 
+    gameEnded = true;
 
-        float elapsedTime = gameTimer != null ? gameTimer.elapsed : 0f;
-        float finalScore = (score * 10000f) - (elapsedTime * 6f);
+    float elapsedTime = gameTimer != null ? gameTimer.elapsed : 0f;
+    float finalScore = (score * 10000f) - (elapsedTime * 6f);
 
-        Debug.Log($"[GameManager] Game Over! Final Score = {finalScore}");
+    Debug.Log($"[GameManager] Game Over! Final Score = {finalScore}");
 
-        Time.timeScale = 0f;
+    Time.timeScale = 0f;
 
-        if (gameOverMenu != null)
-            gameOverMenu.ShowFinalScore(finalScore);
-    }
+    if (gameOverMenu != null)
+        gameOverMenu.ShowFinalScore(finalScore, elapsedTime); 
+}
+
 }
