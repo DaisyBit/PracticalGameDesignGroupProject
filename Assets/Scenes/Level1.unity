@@ -9652,7 +9652,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.221907, y: -0.51355, z: -10}
+  m_LocalPosition: {x: -2.2208848, y: -0.51355, z: -10}
   m_LocalScale: {x: 0.16915, y: 0.16915, z: 0.16915}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21651,7 +21651,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 2
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -23884,7 +23884,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -4.2302117, y: -3.3717096}
+  m_Offset: {x: -4.096787, y: -3.3717096}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -23894,7 +23894,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 3.8689013, y: 0.6406255}
+  m_Size: {x: 4.135751, y: 0.6406255}
   m_EdgeRadius: 0
 --- !u!61 &1629111968
 BoxCollider2D:
