@@ -5,6 +5,9 @@ public class ScoreManager : MonoBehaviour
     public static ScoreManager instance;
 
     public int score = 0;
+    public int maxScore = 6;
+
+    private GameManager gameManager;
 
     void Awake()
     {
@@ -14,9 +17,19 @@ public class ScoreManager : MonoBehaviour
             Destroy(gameObject);
     }
 
+    void Start()
+    {
+        gameManager = FindObjectOfType<GameManager>();
+    }
+
     public void AddPoint()
     {
-        score += 1;
+        score++;
         Debug.Log("Score: " + score);
+
+        if (score >= maxScore && gameManager != null)
+        {
+            gameManager.EndGame(score);
+        }
     }
 }
