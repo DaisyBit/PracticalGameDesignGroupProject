@@ -1,5 +1,5 @@
 using UnityEngine;
-using System.Collections; 
+using System.Collections;
 using System.Collections.Generic;
 
 public class AIChaseScript : MonoBehaviour
@@ -24,7 +24,7 @@ public class AIChaseScript : MonoBehaviour
     private Rigidbody2D rb;
     private bool isPaused = false;
     private bool isChasing = false;
-    private float loseSightTimer = 5f;
+    private float loseSightTimer = 0f;
 
     private Queue<Vector2> playerTrail = new Queue<Vector2>();
     private float trailTimer = 0f;
@@ -52,7 +52,7 @@ public class AIChaseScript : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (player == null || !SwitchButton.instance.isActive) return;  
+        if (player == null) return;
 
         trailTimer += Time.fixedDeltaTime;
         if (trailTimer >= recordInterval)
@@ -64,11 +64,9 @@ public class AIChaseScript : MonoBehaviour
         }
 
         float distanceToPlayer = Vector2.Distance(rb.position, player.position);
-
-        bool canSeePlayer =
-            distanceToPlayer <= detectionRadius &&
-            Physics2D.Raycast(rb.position, (player.position - (Vector3)rb.position).normalized,
-                distanceToPlayer, obstacleMask).collider == null;
+        bool canSeePlayer = distanceToPlayer <= detectionRadius &&
+                            Physics2D.Raycast(rb.position, (player.position - (Vector3)rb.position).normalized,
+                                distanceToPlayer, obstacleMask).collider == null;
 
         if (canSeePlayer)
         {

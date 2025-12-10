@@ -6,7 +6,7 @@ public class WaldoTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag(playerTag))
+        if (SwitchButton.instance != null && SwitchButton.instance.isActive && other.CompareTag(playerTag))
         {
             ScoreManager.instance.AddPoint();
             Destroy(gameObject);
