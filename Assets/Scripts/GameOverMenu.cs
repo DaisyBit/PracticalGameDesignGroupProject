@@ -4,24 +4,24 @@ using TMPro;
 public class GameOverMenu : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI finalScoreText;
-    [SerializeField] private TextMeshProUGUI finalTimeText;   
 
-    public void ShowFinalScore(float finalScore, float finalTime)  
+    public void ShowFinalScore(float finalScore)
     {
         gameObject.SetActive(true);
 
         if (finalScoreText != null)
             finalScoreText.text = $"Final Score: {Mathf.RoundToInt(finalScore)}";
 
-        if (finalTimeText != null)  
-        {
-            int totalSeconds = Mathf.FloorToInt(finalTime);
-            int minutes = totalSeconds / 60;
-            int seconds = totalSeconds % 60;
-            finalTimeText.text = $"Final Time: {minutes}:{seconds:00}";
-        }
-
         Debug.Log("Game Over! Final Score: " + finalScore);
+    }
+        public void ShowFinalBadScore(float finalBadScore)
+    {
+        gameObject.SetActive(true);
+
+        if (finalScoreText != null)
+            finalScoreText.text = $"Final Score: {Mathf.RoundToInt(finalBadScore)}";
+
+        Debug.Log("Game Over! Final Score: " + finalBadScore);
     }
 
     public void HideMenu()
@@ -39,5 +39,10 @@ public class GameOverMenu : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+      public void GoToMainMenu()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
     }
 }
