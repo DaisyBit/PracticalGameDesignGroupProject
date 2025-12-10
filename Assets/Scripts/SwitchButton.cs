@@ -66,7 +66,7 @@ public class SwitchButton : MonoBehaviour
     {
         if (globalLight != null)
         {
-            globalLight.color = color;  
+            globalLight.color = color;
         }
     }
 
@@ -96,6 +96,7 @@ public class SwitchButton : MonoBehaviour
         {
             if (triggerable is WaldoTrigger waldoTrigger)
             {
+
                 waldoTrigger.gameObject.GetComponent<Collider2D>().enabled = !isEnemyTrigger;
             }
             else if (triggerable is EnemyTrigger enemyTrigger)
