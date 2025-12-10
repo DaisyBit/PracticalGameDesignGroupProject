@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 7662440705438251423}
   - component: {fileID: 5498509345454311489}
   - component: {fileID: 5827108139040178047}
-  - component: {fileID: 4960811498780416411}
   - component: {fileID: 8645798077318330721}
   m_Layer: 0
   m_Name: James
@@ -138,19 +137,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4ea88c81b3f82cd40bb5c2d524231edc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerTag: Player
---- !u!114 &4960811498780416411
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2875599211188397594}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a9bdc212bd1afc42bb96609701fc22d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerTag: Player

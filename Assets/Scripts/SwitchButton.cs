@@ -29,7 +29,7 @@ public class SwitchButton : MonoBehaviour
         SetLightingColor(defaultColor);
         DeactivateSpawner();
 
-        globalLight = FindObjectOfType<Light2D>(); 
+        globalLight = FindObjectOfType<Light2D>();
 
         if (globalLight == null)
         {
@@ -75,7 +75,6 @@ public class SwitchButton : MonoBehaviour
         if (spawner != null)
         {
             spawner.SetActive(true);
-            ChangeTrigger(true);
         }
     }
 
@@ -84,25 +83,6 @@ public class SwitchButton : MonoBehaviour
         if (spawner != null)
         {
             spawner.SetActive(false);
-            ChangeTrigger(false);
-        }
-    }
-
-    private void ChangeTrigger(bool isEnemyTrigger)
-    {
-        var triggerables = FindObjectsOfType<MonoBehaviour>();
-
-        foreach (var triggerable in triggerables)
-        {
-            if (triggerable is WaldoTrigger waldoTrigger)
-            {
-
-                waldoTrigger.gameObject.GetComponent<Collider2D>().enabled = !isEnemyTrigger;
-            }
-            else if (triggerable is EnemyTrigger enemyTrigger)
-            {
-                enemyTrigger.gameObject.GetComponent<Collider2D>().enabled = isEnemyTrigger;
-            }
         }
     }
 }

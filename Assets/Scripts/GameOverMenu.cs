@@ -1,27 +1,50 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameOverMenu : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI finalScoreText;
+    [SerializeField] private Button nextSceneButton;
 
-    public void ShowFinalScore(float finalScore)
+    private void Start()
+    {
+        if (nextSceneButton != null)
+        {
+            nextSceneButton.onClick.AddListener(LoadNextScene);
+            nextSceneButton.gameObject.SetActive(false);
+        }
+    }
+
+    public void ShowFinalScore(float finalScore, float elapsedTime)
     {
         gameObject.SetActive(true);
 
         if (finalScoreText != null)
-            finalScoreText.text = $"Final Score: {Mathf.RoundToInt(finalScore)}";
+            finalScoreText.text = $"Final Score: {Mathf.RoundToInt(finalScore)}\nTime: {Mathf.RoundToInt(elapsedTime)}";
 
         Debug.Log("Game Over! Final Score: " + finalScore);
+
+        if (nextSceneButton != null)
+        {
+            nextSceneButton.gameObject.SetActive(true);
+        }
     }
-        public void ShowFinalBadScore(float finalBadScore)
+
+    public void ShowFinalBadScore(int badScore)
     {
         gameObject.SetActive(true);
 
         if (finalScoreText != null)
-            finalScoreText.text = $"Final Score: {Mathf.RoundToInt(finalBadScore)}";
+            finalScoreText.text += $"\nBad Score: {badScore}";
 
-        Debug.Log("Game Over! Final Score: " + finalBadScore);
+        Debug.Log("Game Over! Final Bad Score: " + badScore);
+
+        if (nextSceneButton != null)
+        {
+            nextSceneButton.gameObject.SetActive(true);
+        }
     }
 
     public void HideMenu()
@@ -32,8 +55,7 @@ public class GameOverMenu : MonoBehaviour
     public void RestartGame()
     {
         Time.timeScale = 1f;
-        UnityEngine.SceneManagement.SceneManager.LoadScene(
-            UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void QuitGame()
@@ -41,8 +63,23 @@ public class GameOverMenu : MonoBehaviour
         Application.Quit();
     }
 
-      public void GoToMainMenu()
+    public void GoToMainMenu()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+        SceneManager.LoadScene(0);
+    }
+
+    public void LoadNextScene()
+    {
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        int nextSceneIndex = currentSceneIndex + 1;
+
+        if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
+        {
+            SceneManager.LoadScene(nextSceneIndex);
+        }
+        else
+        {
+            Debug.Log("No next scene in the build settings.");
+        }
     }
 }

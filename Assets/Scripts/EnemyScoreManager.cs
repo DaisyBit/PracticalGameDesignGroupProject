@@ -19,17 +19,18 @@ public class EnemyScoreManager : MonoBehaviour
 
     void Start()
     {
-        gameManager = FindFirstObjectByType<GameManager>();
+        gameManager = FindObjectOfType<GameManager>();
     }
 
     public void AddEnemyPoint()
     {
         badScore++;
-        Debug.Log("Score: " + badScore);
+        Debug.Log("Bad Score: " + badScore);
 
+        // If badScore reaches the threshold, we still show the bad score in the game over menu
         if (badScore >= maxScore && gameManager != null)
         {
-            gameManager.FailedGame(badScore);
+            gameManager.EndGame(gameManager.score); // Trigger the game over logic and pass the current score
         }
     }
 }
