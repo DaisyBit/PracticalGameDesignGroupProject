@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &7437442213341156628
+--- !u!1001 &8514558499654991989
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -10,11 +10,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1687527613168642019, guid: ec3966f50108fe14491227e2680d52c7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.455
+      value: 3.4314
       objectReference: {fileID: 0}
     - target: {fileID: 1687527613168642019, guid: ec3966f50108fe14491227e2680d52c7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.528
+      value: 2.1727993
       objectReference: {fileID: 0}
     - target: {fileID: 1687527613168642019, guid: ec3966f50108fe14491227e2680d52c7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -54,7 +54,7 @@ PrefabInstance:
       objectReference: {fileID: -6132571864726149801, guid: 76a59ef996c53c64bb48fae131d5727d, type: 3}
     - target: {fileID: 3618659218208796048, guid: ec3966f50108fe14491227e2680d52c7, type: 3}
       propertyPath: m_Name
-      value: The Enforcer Variant
+      value: The Enforcer Variant 1
       objectReference: {fileID: 0}
     - target: {fileID: 3618659218208796048, guid: ec3966f50108fe14491227e2680d52c7, type: 3}
       propertyPath: m_TagString
@@ -65,29 +65,33 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
+    - {fileID: 7398692505170903530, guid: ec3966f50108fe14491227e2680d52c7, type: 3}
     - {fileID: 6141638435627639303, guid: ec3966f50108fe14491227e2680d52c7, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 3618659218208796048, guid: ec3966f50108fe14491227e2680d52c7, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 6504279705763150674}
+      addedObject: {fileID: 3878343890595039008}
     - targetCorrespondingSourceObject: {fileID: 3618659218208796048, guid: ec3966f50108fe14491227e2680d52c7, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 5637717467192343735}
+      addedObject: {fileID: 6393940494580337988}
+    - targetCorrespondingSourceObject: {fileID: 3618659218208796048, guid: ec3966f50108fe14491227e2680d52c7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 601927798486943534}
   m_SourcePrefab: {fileID: 100100000, guid: ec3966f50108fe14491227e2680d52c7, type: 3}
---- !u!1 &6129140893832640644 stripped
+--- !u!1 &4904919950272966117 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3618659218208796048, guid: ec3966f50108fe14491227e2680d52c7, type: 3}
-  m_PrefabInstance: {fileID: 7437442213341156628}
+  m_PrefabInstance: {fileID: 8514558499654991989}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &6504279705763150674
+--- !u!114 &3878343890595039008
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6129140893832640644}
+  m_GameObject: {fileID: 4904919950272966117}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 42991b0c9dd40ee45a2063448c75962f, type: 3}
@@ -106,16 +110,52 @@ MonoBehaviour:
     m_Bits: 0
   recordInterval: 0.1
   maxTrailLength: 20
---- !u!114 &5637717467192343735
+--- !u!114 &6393940494580337988
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6129140893832640644}
+  m_GameObject: {fileID: 4904919950272966117}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a9bdc212bd1afc42bb96609701fc22d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerTag: Player
+--- !u!58 &601927798486943534
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4904919950272966117}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 1.4999999
