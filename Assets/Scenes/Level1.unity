@@ -23744,7 +23744,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 202450969444887358, guid: 21b1e751b1c210f49891165e0d29cdaf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.2212896
+      value: -2.2209048
       objectReference: {fileID: 0}
     - target: {fileID: 202450969444887358, guid: 21b1e751b1c210f49891165e0d29cdaf, type: 3}
       propertyPath: m_LocalPosition.y
@@ -23979,6 +23979,10 @@ PrefabInstance:
     - target: {fileID: 7718307868358444245, guid: 249e897145071bd44ab56de3da10539d, type: 3}
       propertyPath: m_Name
       value: GameOverMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 7718307868358444245, guid: 249e897145071bd44ab56de3da10539d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
