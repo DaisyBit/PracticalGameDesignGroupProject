@@ -1,14 +1,16 @@
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class SwitchButton : MonoBehaviour
 {
     public static SwitchButton instance;
 
     public GameObject spawner;
-    public SpriteRenderer[] mapSprites;
     public Color activeColor = Color.red;
     public Color defaultColor = Color.white;
     public bool isActive = false;
+
+    private Light2D globalLight;
 
     private void Awake()
     {
@@ -24,8 +26,15 @@ public class SwitchButton : MonoBehaviour
 
     private void Start()
     {
-        SetMapColor(defaultColor);
+        SetLightingColor(defaultColor);
         DeactivateSpawner();
+
+        globalLight = FindObjectOfType<Light2D>(); 
+
+        if (globalLight == null)
+        {
+            Debug.LogError("No Light2D found in the scene. Please make sure there is a Light2D in your scene.");
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -44,20 +53,20 @@ public class SwitchButton : MonoBehaviour
         if (isActive)
         {
             ActivateSpawner();
-            SetMapColor(activeColor);
+            SetLightingColor(activeColor);
         }
         else
         {
             DeactivateSpawner();
-            SetMapColor(defaultColor);
+            SetLightingColor(defaultColor);
         }
     }
 
-    private void SetMapColor(Color color)
+    private void SetLightingColor(Color color)
     {
-        foreach (var sprite in mapSprites)
+        if (globalLight != null)
         {
-            sprite.color = color;
+            globalLight.color = color;  
         }
     }
 
