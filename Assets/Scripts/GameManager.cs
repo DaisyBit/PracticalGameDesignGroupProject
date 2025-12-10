@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 0f;
 
         if (gameOverMenu != null)
-            gameOverMenu.ShowFinalScore(finalScore);
+            gameOverMenu.ShowFinalScore(finalScore, elapsedTime);
     }
         public void FailedGame(int badScore)
     {
@@ -41,6 +41,6 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 0f;
 
         if (gameOverMenu != null)
-            gameOverMenu.ShowFinalBadScore(finalBadScore);
+            gameOverMenu.ShowFinalBadScore(finalBadScore, elapsedTime);
     }
 }

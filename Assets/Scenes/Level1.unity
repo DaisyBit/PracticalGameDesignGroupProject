@@ -23007,7 +23007,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 202450969444887358, guid: 21b1e751b1c210f49891165e0d29cdaf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.2221437
+      value: -2.2209048
       objectReference: {fileID: 0}
     - target: {fileID: 202450969444887358, guid: 21b1e751b1c210f49891165e0d29cdaf, type: 3}
       propertyPath: m_LocalPosition.y
@@ -23640,6 +23640,10 @@ PrefabInstance:
     - target: {fileID: 1816160996145318312, guid: 375abf3ef5b13cd468010a2308055c60, type: 3}
       propertyPath: m_Name
       value: GameStartMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 1816160996145318312, guid: 375abf3ef5b13cd468010a2308055c60, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6148406597196669367, guid: 375abf3ef5b13cd468010a2308055c60, type: 3}
       propertyPath: m_Pivot.x

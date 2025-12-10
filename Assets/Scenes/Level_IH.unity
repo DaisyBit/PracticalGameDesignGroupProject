@@ -7257,6 +7257,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6757943285892058359, guid: 249e897145071bd44ab56de3da10539d, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7718307868358444245, guid: 249e897145071bd44ab56de3da10539d, type: 3}
       propertyPath: m_Name
       value: GameOverMenu
@@ -7289,7 +7293,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1816160996145318312, guid: 375abf3ef5b13cd468010a2308055c60, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6148406597196669367, guid: 375abf3ef5b13cd468010a2308055c60, type: 3}
       propertyPath: m_Pivot.x
