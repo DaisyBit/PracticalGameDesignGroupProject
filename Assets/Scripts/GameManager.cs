@@ -1,18 +1,21 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager instance;
     [SerializeField] private GameOverMenu gameOverMenu;
     [SerializeField] private GameTimer gameTimer;
 
-    private bool gameEnded = false;
+    public int score = 0;
+    public int badScore = 0;
 
-    public static GameManager instance;
+    private int[] scoreThresholds = {6, 12, 18};
+    private int[] badScoreThresholds = {1, 2, 3};
+    private bool[] scoreTriggered;
+    private bool[] badScoreTriggered;
 
-    public int score = 0;           // Player's score for the level
-    public int badScore = 0;        // Player's bad score (if they do bad things, e.g. hitting enemies)
-
-    void Awake()
+    private void Awake()
     {
         if (instance != null && instance != this)
         {
@@ -21,48 +24,80 @@ public class GameManager : MonoBehaviour
         else
         {
             instance = this;
-            DontDestroyOnLoad(gameObject);  // Make sure GameManager persists between scene changes
+            DontDestroyOnLoad(gameObject);
         }
+
+        scoreTriggered = new bool[scoreThresholds.Length];
+        badScoreTriggered = new bool[badScoreThresholds.Length];
     }
 
-    void Start()
+    private void Start()
     {
-        ResetGameValues();  // Reset score and bad score when the game starts
+        ResetGameValues();
         if (gameOverMenu != null)
             gameOverMenu.HideMenu();
     }
 
     public void ResetGameValues()
     {
-        score = 0;           // Reset the score
-        badScore = 0;        // Reset the bad score
+        score = 0;
+        badScore = 0;
+        for (int i = 0; i < scoreTriggered.Length; i++)
+            scoreTriggered[i] = false;
+        for (int i = 0; i < badScoreTriggered.Length; i++)
+            badScoreTriggered[i] = false;
     }
 
-    public void AddBadScore(int scoreToAdd)
+    public void AddScore(int amount)
     {
-        badScore += scoreToAdd;
+        score += amount;
+        Debug.Log($"Score: {score}");
+        CheckGameOver();
+    }
+
+    public void AddBadScore(int amount)
+    {
+        badScore += amount;
         Debug.Log($"Bad Score: {badScore}");
+        CheckGameOver();
     }
 
-    public void EndGame(int score)
+    public void CheckGameOver()
     {
-        if (gameEnded) return;
-        gameEnded = true;
-
-        float elapsedTime = gameTimer != null ? gameTimer.elapsed : 0f;
-
-        // Calculate the final score
-        float finalScore = (score * 10000f) - (elapsedTime * 6f);
-        Debug.Log($"[GameManager] Game Over! Final Score = {finalScore}");
-        Time.timeScale = 0f;
-
-        if (gameOverMenu != null)
-            gameOverMenu.ShowFinalScore(finalScore, elapsedTime);
-
-        // Show bad score if it is greater than 0
-        if (badScore > 0)
+        for (int i = 0; i < scoreThresholds.Length; i++)
         {
-            gameOverMenu.ShowFinalBadScore(badScore);
+            if (!scoreTriggered[i] && score >= scoreThresholds[i])
+            {
+                scoreTriggered[i] = true;
+                EndGame();
+            }
+        }
+
+        for (int i = 0; i < badScoreThresholds.Length; i++)
+        {
+            if (!badScoreTriggered[i] && badScore >= badScoreThresholds[i])
+            {
+                badScoreTriggered[i] = true;
+                EndGame();
+            }
         }
     }
+
+public void EndGame()
+{
+    float elapsedTime = gameTimer != null ? gameTimer.elapsed : 0f;
+    float finalScore = (score * 10000f) - (elapsedTime * 6f);
+    Debug.Log($"Game Over! Final Score = {finalScore}");
+
+    Time.timeScale = 1f; 
+    if (gameOverMenu != null)
+    {
+        gameOverMenu.ShowFinalScore(finalScore, elapsedTime);
+        if (badScore > 0)
+            gameOverMenu.ShowFinalBadScore(badScore);
+    }
+
+    Time.timeScale = 0f;
+}
+
 }

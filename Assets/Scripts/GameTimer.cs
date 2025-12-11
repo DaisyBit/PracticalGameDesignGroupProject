@@ -5,15 +5,31 @@ public class GameTimer : MonoBehaviour
 {
     public float elapsed = 0f;
     [SerializeField] private TextMeshProUGUI timerText;
+
+    private static GameTimer instance;
+
+    private void Awake()
+    {
+        if (instance != null && instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        instance = this;
+        DontDestroyOnLoad(gameObject);
+    }
+
     void Start()
     {
         UpdateDisplay();
     }
+
     void Update()
     {
         elapsed += Time.deltaTime;
         UpdateDisplay();
     }
+
     private void UpdateDisplay()
     {
         if (timerText == null)
@@ -25,3 +41,4 @@ public class GameTimer : MonoBehaviour
         timerText.text = $"TIME: {minutes}:{seconds:00}";
     }
 }
+

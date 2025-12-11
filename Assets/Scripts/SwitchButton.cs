@@ -14,14 +14,7 @@ public class SwitchButton : MonoBehaviour
 
     private void Awake()
     {
-        if (instance != null && instance != this)
-        {
-            Destroy(gameObject);
-        }
-        else
-        {
-            instance = this;
-        }
+        instance = this;
     }
 
     private void Start()
@@ -32,18 +25,13 @@ public class SwitchButton : MonoBehaviour
         globalLight = FindObjectOfType<Light2D>();
 
         if (globalLight == null)
-        {
-            Debug.LogError("No Light2D found in the scene. Please make sure there is a Light2D in your scene.");
-        }
+            Debug.LogError("No Light2D found in the scene.");
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
-        {
-            Debug.Log("Player collided with the button. Toggling state.");
             ToggleButtonState();
-        }
     }
 
     private void ToggleButtonState()
@@ -65,24 +53,18 @@ public class SwitchButton : MonoBehaviour
     private void SetLightingColor(Color color)
     {
         if (globalLight != null)
-        {
             globalLight.color = color;
-        }
     }
 
     private void ActivateSpawner()
     {
         if (spawner != null)
-        {
             spawner.SetActive(true);
-        }
     }
 
     private void DeactivateSpawner()
     {
         if (spawner != null)
-        {
             spawner.SetActive(false);
-        }
     }
 }

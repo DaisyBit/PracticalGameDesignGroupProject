@@ -16,36 +16,42 @@ public class GameOverMenu : MonoBehaviour
             nextSceneButton.gameObject.SetActive(false);
         }
     }
+    private void Awake()
+{
+    DontDestroyOnLoad(gameObject);
+}
+
 
     public void ShowFinalScore(float finalScore, float elapsedTime)
-    {
-        gameObject.SetActive(true);
+{
+    Time.timeScale = 1f; 
+    gameObject.SetActive(true);
 
-        if (finalScoreText != null)
-            finalScoreText.text = $"Final Score: {Mathf.RoundToInt(finalScore)}\nTime: {Mathf.RoundToInt(elapsedTime)}";
+    if (finalScoreText != null)
+        finalScoreText.text = $"Final Score: {Mathf.RoundToInt(finalScore)}\nTime: {Mathf.RoundToInt(elapsedTime)}";
 
-        Debug.Log("Game Over! Final Score: " + finalScore);
+    if (nextSceneButton != null)
+        nextSceneButton.gameObject.SetActive(true);
 
-        if (nextSceneButton != null)
-        {
-            nextSceneButton.gameObject.SetActive(true);
-        }
-    }
+    Canvas.ForceUpdateCanvases(); 
+    Time.timeScale = 0f; 
+}
 
-    public void ShowFinalBadScore(int badScore)
-    {
-        gameObject.SetActive(true);
+public void ShowFinalBadScore(int badScore)
+{
+    Time.timeScale = 1f;
+    gameObject.SetActive(true);
 
-        if (finalScoreText != null)
-            finalScoreText.text += $"\nBad Score: {badScore}";
+    if (finalScoreText != null)
+        finalScoreText.text += $"\nBad Score: {badScore}";
 
-        Debug.Log("Game Over! Final Bad Score: " + badScore);
+    if (nextSceneButton != null)
+        nextSceneButton.gameObject.SetActive(true);
 
-        if (nextSceneButton != null)
-        {
-            nextSceneButton.gameObject.SetActive(true);
-        }
-    }
+    Canvas.ForceUpdateCanvases();
+    Time.timeScale = 0f;
+}
+
 
     public void HideMenu()
     {
@@ -68,18 +74,23 @@ public class GameOverMenu : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
-    public void LoadNextScene()
-    {
-        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        int nextSceneIndex = currentSceneIndex + 1;
+public void LoadNextScene()
+{
+    HideMenu();
 
-        if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
-        {
-            SceneManager.LoadScene(nextSceneIndex);
-        }
-        else
-        {
-            Debug.Log("No next scene in the build settings.");
-        }
+    Time.timeScale = 1f; 
+
+    int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+    int nextSceneIndex = currentSceneIndex + 1;
+
+    if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
+    {
+        SceneManager.LoadScene(nextSceneIndex);
     }
+    else
+    {
+        Debug.Log("No next scene in the build settings.");
+    }
+}
+
 }

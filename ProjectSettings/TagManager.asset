@@ -9,13 +9,13 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Enforcers
   - Water
   - UI
   - Player
   - Collision
   - Camera Boundary
-  - 
+  - obstacleMask
   - 
   - 
   - 
